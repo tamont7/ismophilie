@@ -1,0 +1,26 @@
+# Dépendances et compilation Vite
+node_modules/
+/dist/
+*.local
+
+# Configuration locale Vercel et variables d’environnement
+/.vercel/
+.env
+.env.*
+!.env.example
+
+# Cache Python du script d’extraction
+__pycache__/
+*.py[cod]
+/.venv/
+
+# Ouvrage source local ; src/data/ismes.json reste versionné
+/La philosophie de A à Z*/
+
+# Journaux et fichiers temporaires
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
